@@ -22,6 +22,9 @@ data/raw/*.csv
 models/*.joblib
 models/*.png
 
+# Generated EDA / report outputs (re-create with: python -m src.eda)
+reports/
+
 # Environment / secrets
 .env
 .env.*
